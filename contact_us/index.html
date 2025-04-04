@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        margin: 48px 32px;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form
+      action="mailto:nguyendangmanh2108@gmail.com"
+      class="fs-form"
+      target="_top"
+      method="POST"
+    >
+      <div class="fs-field">
+        <label class="fs-label" for="name">Name</label>
+        <input class="fs-input" id="name" name="name" />
+      </div>
+      <div class="fs-field">
+        <label class="fs-label" for="email">Email</label>
+        <input class="fs-input" id="email" name="email" required />
+      </div>
+      <div class="fs-field">
+        <label class="fs-label" for="message">Message</label>
+        <textarea class="fs-textarea" id="message" name="message"></textarea>
+        <p class="fs-description">
+          We usually respond within 1-2 business days.
+        </p>
+      </div>
+      <div class="fs-button-group">
+        <button class="fs-button" type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
